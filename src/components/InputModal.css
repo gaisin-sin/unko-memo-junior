@@ -1,0 +1,48 @@
+.ModalWindow {
+    background-color:rgb(128, 128, 128);
+    width: 100%;
+    height:100vh;
+    z-index:10;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0.4;
+  }
+  
+
+  .MainModal {
+    z-index:100;
+    position: absolute;
+    top:10%;
+    left:40%;
+    height:600px;
+    min-width:400px;
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 1px 15px 19px -1px #777777;
+    display:flex;
+    flex-direction: row;
+
+  }
+textarea {
+    height: 100%;
+    width:90%;
+    border:none;
+}
+textarea:focus {
+    outline:none;
+}
+
+.add-button{
+    font-size:50px;
+    color:gray;
+    border:none;
+    background-color: white;
+    margin-top:480px;
+}
+.add-button:hover {
+    color:rgb(144, 215, 157);
+    transition: all 0.2s;
+    
+}

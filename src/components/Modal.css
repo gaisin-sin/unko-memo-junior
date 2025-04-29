@@ -1,0 +1,42 @@
+.MemoModal {
+    z-index:100;
+    position: absolute;
+    top:10%;
+    left:40%;
+    height:600px;
+    min-width:400px;
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 1px 15px 19px -1px #777777;
+    display:flex;
+    flex-direction:row;
+  }
+  .MemoShow {
+  width:90%;
+  }
+.close-button {
+    font-size:30px;
+    color:gray;
+    background-color: white;;
+    border:none;
+    cursor:pointer;
+    border-radius: 50px;
+}
+.close-button:hover {
+    color:rgb(223, 109, 109);
+    transition: all 0.1s;
+}
+
+.fav-button {
+    font-size:50px;
+    color:gray;
+    border:none;
+    background-color: white;
+    margin-top:480px;
+}
+.fav-button:hover {
+    color:rgb(232, 232, 152);
+    transition: all 0.2s;
+    
+}
